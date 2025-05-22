@@ -27,7 +27,7 @@ docker-compose up -d
 ```
 
 RabbitMQ Management UI will be available at:  
-👉 [http://localhost:15672](http://localhost:15672)  
+[http://localhost:15672](http://localhost:15672)  
 **User/Pass:** `guest` / `guest`
 
 ### 2. Install dependencies
@@ -44,12 +44,12 @@ npm start
 
 You should see the receiver listening, and then the sender sends a message which is printed to the console.
 
-## 📘 Scripts
+## Scripts
 
 - `npm start` — compiles and runs the app using `ts-node-dev`
 - `npm run build` — builds the app to `/dist`
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Node.js
 - TypeScript
